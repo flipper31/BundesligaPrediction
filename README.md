@@ -42,6 +42,30 @@ Nginx-Block im Container 110 unter `/data/nginx/custom/http.conf` (Port 8182).
 
 Seite: http://192.168.178.135:8182
 
+## Kicktipp-Automatik
+
+Unsere Prognosen werden automatisch in die Kicktipp-Tipprunde eingetragen —
+kein manuelles Abtippen. Basis: [kicktipp-agent](https://github.com/christianheidorn/kicktipp-agent)
+(geklont in `kicktipp-agent/`, gitignored) für Login/Session.
+
+**Einmaliges Setup** (Login mit Passwort, macht der User selbst):
+```bash
+node kicktipp-agent/dist/index.js set-community
+```
+
+**Tipps eintragen** (Brücke liest predictions.json → trägt Spiel-Tipps ein):
+```bash
+node scripts/submit-to-kicktipp.mjs            # Trockenlauf (zeigt nur die Zuordnung)
+node scripts/submit-to-kicktipp.mjs --submit   # trägt wirklich ein + speichert + verifiziert
+```
+
+Wichtige Eigenheiten der Community `nrm-bundesliga`:
+- **Bonusfragen liegen auf `spieltagIndex=0`** (Meister, Herbstmeister …) — die trägt
+  der User per Hand ein. Dadurch ist alles um 1 verschoben: **1. Spieltag = `spieltagIndex=1`**,
+  N. Spieltag = `spieltagIndex=N`. Steuerbar über `--matchday-index N`.
+- Nur Spiel-Ergebnisse werden automatisch getippt, keine Bonusfragen.
+- Vor dem echten Eintragen immer erst Trockenlauf zeigen und bestätigen lassen.
+
 ## Prognose-Prinzipien
 
 - Wettquoten sind **ein** Input neben Form/Statistiken — kein reines Quoten-Echo
