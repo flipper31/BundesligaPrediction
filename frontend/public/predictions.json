@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T18:55:46.447Z",
-  "model": "Claude (Datenbasis: Flashscore-Scrape inkl. Wettquoten + Form, 30.8.2026)",
+  "generatedAt": "2026-09-06T19:36:59.025Z",
+  "model": "Claude (Datenbasis: Flashscore-Scrape inkl. Wettquoten + Form, 6.9.2026)",
   "demo": false,
   "matches": [
     {
@@ -570,8 +570,8 @@
         },
         "stats": {
           "possession": {
-            "home": 47,
-            "away": 53
+            "home": 48,
+            "away": 52
           },
           "shots": {
             "home": 24,
@@ -627,6 +627,30 @@
           }
         },
         "reasoning": "Stuttgart ist zuhause klarer Favorit (1.44). Der VfB kassierte zwar ein 1:5 in München, aber das war Bayern. Köln gewann sein Auftaktspiel 3:2 und trifft, verteidigt aber wackelig. Stuttgart gewinnt, Köln nimmt ein Tor mit."
+      },
+      "actual": {
+        "score": {
+          "home": 4,
+          "away": 1
+        },
+        "stats": {
+          "possession": {
+            "home": 58,
+            "away": 42
+          },
+          "shots": {
+            "home": 22,
+            "away": 18
+          },
+          "shotsOnTarget": {
+            "home": null,
+            "away": null
+          },
+          "corners": {
+            "home": null,
+            "away": null
+          }
+        }
       }
     },
     {
@@ -668,6 +692,30 @@
           }
         },
         "reasoning": "Gladbach ist favorisiert (1.64), nach dem 0:3 in Leipzig aber angezählt. Aufsteiger Elversberg kommt mit breiter Brust nach dem sensationellen 3:2 gegen Leverkusen — sie schießen Tore, kassieren aber auch. Gladbach zieht zuhause knapp den Kürzeren des Außenseiters ab: 2:1, Elversberg trifft."
+      },
+      "actual": {
+        "score": {
+          "home": 3,
+          "away": 4
+        },
+        "stats": {
+          "possession": {
+            "home": 51,
+            "away": 49
+          },
+          "shots": {
+            "home": 25,
+            "away": 14
+          },
+          "shotsOnTarget": {
+            "home": null,
+            "away": null
+          },
+          "corners": {
+            "home": null,
+            "away": null
+          }
+        }
       }
     },
     {
@@ -709,6 +757,30 @@
           }
         },
         "reasoning": "Dortmund ist auch auswärts leicht favorisiert (2.28) und startete mit einem souveränen 2:0 zu null. Hoffenheim verlor 2:3 in Köln — offensiv da, defensiv anfällig. Der BVB gewinnt, lässt gegen Hoffenheims Offensive aber ein Tor zu."
+      },
+      "actual": {
+        "score": {
+          "home": 2,
+          "away": 3
+        },
+        "stats": {
+          "possession": {
+            "home": 60,
+            "away": 40
+          },
+          "shots": {
+            "home": 18,
+            "away": 11
+          },
+          "shotsOnTarget": {
+            "home": null,
+            "away": null
+          },
+          "corners": {
+            "home": null,
+            "away": null
+          }
+        }
       }
     },
     {
@@ -750,6 +822,30 @@
           }
         },
         "reasoning": "Leverkusen ist Favorit (1.44), hat aber zum Auftakt mit dem 2:3 in Elversberg eine desolate Defensivleistung gezeigt. Union (3:3 gegen Frankfurt) trifft zuverlässig. Leverkusen gewinnt zuhause, aber ein Clean Sheet ist gegen diese Union-Offensive und die eigene wacklige Abwehr unwahrscheinlich."
+      },
+      "actual": {
+        "score": {
+          "home": 4,
+          "away": 0
+        },
+        "stats": {
+          "possession": {
+            "home": 64,
+            "away": 36
+          },
+          "shots": {
+            "home": 21,
+            "away": 5
+          },
+          "shotsOnTarget": {
+            "home": null,
+            "away": null
+          },
+          "corners": {
+            "home": null,
+            "away": null
+          }
+        }
       }
     },
     {
@@ -791,6 +887,30 @@
           }
         },
         "reasoning": "Freiburg ist auswärts favorisiert (2.20) und überzeugte mit dem 4:1 gegen Werder. Paderborn holte ein mageres 0:0 gegen Mainz — offensiv harmlos. Freiburg gewinnt, Paderborn erkämpft sich vor Heimpublikum ein Tor."
+      },
+      "actual": {
+        "score": {
+          "home": 0,
+          "away": 1
+        },
+        "stats": {
+          "possession": {
+            "home": 59,
+            "away": 41
+          },
+          "shots": {
+            "home": 14,
+            "away": 16
+          },
+          "shotsOnTarget": {
+            "home": null,
+            "away": null
+          },
+          "corners": {
+            "home": null,
+            "away": null
+          }
+        }
       }
     },
     {
@@ -832,6 +952,30 @@
           }
         },
         "reasoning": "Leipzig ist auswärts klarer Favorit (2.00) nach dem starken 3:0 gegen Gladbach (zu null). Werder kassierte ein 1:4 in Freiburg — die Abwehr steht nicht. Leipzig gewinnt, Werder trifft zuhause zum Ehrentreffer."
+      },
+      "actual": {
+        "score": {
+          "home": 3,
+          "away": 1
+        },
+        "stats": {
+          "possession": {
+            "home": 29,
+            "away": 71
+          },
+          "shots": {
+            "home": 12,
+            "away": 19
+          },
+          "shotsOnTarget": {
+            "home": null,
+            "away": null
+          },
+          "corners": {
+            "home": null,
+            "away": null
+          }
+        }
       }
     },
     {
@@ -873,6 +1017,30 @@
           }
         },
         "reasoning": "Bayern ist mit Quote 1.18 fast konkurrenzlos und fegte Stuttgart 5:1 weg. Schalke ging beim 0:3 in Augsburg offensiv komplett unter. Gegen Schalkes harmlosen Angriff ist ein Bayern-Clean-Sheet berechtigt — deutlicher Auswärtssieg."
+      },
+      "actual": {
+        "score": {
+          "home": 0,
+          "away": 0
+        },
+        "stats": {
+          "possession": {
+            "home": 17,
+            "away": 83
+          },
+          "shots": {
+            "home": 4,
+            "away": 15
+          },
+          "shotsOnTarget": {
+            "home": null,
+            "away": null
+          },
+          "corners": {
+            "home": null,
+            "away": null
+          }
+        }
       }
     },
     {
@@ -914,6 +1082,30 @@
           }
         },
         "reasoning": "Fast ausgeglichene Quoten (2.78 zu 2.40). Zwei offensiv blasse Teams: der HSV verlor 0:2 gegen Dortmund, Mainz spielte 0:0 gegen Paderborn — je null eigene Tore. In so einem Spiel ist das Remis die logische Prognose."
+      },
+      "actual": {
+        "score": {
+          "home": 0,
+          "away": 5
+        },
+        "stats": {
+          "possession": {
+            "home": 54,
+            "away": 46
+          },
+          "shots": {
+            "home": 8,
+            "away": 17
+          },
+          "shotsOnTarget": {
+            "home": null,
+            "away": null
+          },
+          "corners": {
+            "home": null,
+            "away": null
+          }
+        }
       }
     },
     {
@@ -955,6 +1147,399 @@
           }
         },
         "reasoning": "Frankfurt ist zuhause favorisiert (1.90) und offensivstark (3:3 gegen Union), aber defensiv anfällig. Augsburg kam mit einem 3:0 gegen Schalke gut aus den Startlöchern. Frankfurt gewinnt vor eigenem Publikum, Augsburg trifft aber gegen die löchrige Eintracht-Abwehr."
+      },
+      "actual": {
+        "score": {
+          "home": 1,
+          "away": 4
+        },
+        "stats": {
+          "possession": {
+            "home": 60,
+            "away": 40
+          },
+          "shots": {
+            "home": 22,
+            "away": 17
+          },
+          "shotsOnTarget": {
+            "home": null,
+            "away": null
+          },
+          "corners": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    },
+    {
+      "id": "tfPvE0rS",
+      "group": "3. Spieltag",
+      "kickoff": "2026-09-11T20:30:00+02:00",
+      "home": {
+        "name": "Union Berlin",
+        "logo": "https://static.flashscore.com/res/image/data/dI26KXzB-ncmj9JbF.png",
+        "flag": "⚽"
+      },
+      "away": {
+        "name": "Schalke 04",
+        "logo": "https://static.flashscore.com/res/image/data/b1q14jZg-I7p2Damb.png",
+        "flag": "⚽"
+      },
+      "prediction": {
+        "score": {
+          "home": 1,
+          "away": 0
+        },
+        "confidence": 48,
+        "expectedStats": {
+          "possession": {
+            "home": 56,
+            "away": 44
+          },
+          "shots": {
+            "home": 13,
+            "away": 7
+          },
+          "shotsOnTarget": {
+            "home": 5,
+            "away": 2
+          },
+          "corners": {
+            "home": 6,
+            "away": 3
+          }
+        },
+        "reasoning": "Union ist favorisiert (2.10), hat aber in zwei Spielen sieben Gegentore kassiert. Das spielt hier kaum eine Rolle: Schalke hat in zwei Partien KEIN einziges Tor erzielt (0:3, 0:0) — die Offensive ist das Problem. Beim 0:0 gegen Bayern zeigte S04 aber, dass die Abwehr stehen kann. Ein zähes, torarmes Spiel mit knappem Heimsieg."
+      }
+    },
+    {
+      "id": "2kmjGV7b",
+      "group": "3. Spieltag",
+      "kickoff": "2026-09-12T15:30:00+02:00",
+      "home": {
+        "name": "Bor. Dortmund",
+        "logo": "https://static.flashscore.com/res/image/data/Yiq1eU9r-WrjrBuU2.png",
+        "flag": "⚽"
+      },
+      "away": {
+        "name": "SC Paderborn",
+        "logo": "https://static.flashscore.com/res/image/data/Yu5IOeyB-Qmnf8wEL.png",
+        "flag": "⚽"
+      },
+      "prediction": {
+        "score": {
+          "home": 3,
+          "away": 0
+        },
+        "confidence": 64,
+        "expectedStats": {
+          "possession": {
+            "home": 66,
+            "away": 34
+          },
+          "shots": {
+            "home": 18,
+            "away": 5
+          },
+          "shotsOnTarget": {
+            "home": 8,
+            "away": 2
+          },
+          "corners": {
+            "home": 8,
+            "away": 2
+          }
+        },
+        "reasoning": "Dortmund ist mit Quote 1.22 haushoher Favorit und hat sechs Punkte geholt. Paderborn steht bei null eigenen Toren aus zwei Spielen (0:0, 0:1) — ein extrem defensiver, aber völlig harmloser Aufsteiger. Gegen diese Offensive ist ein Clean Sheet berechtigt: klarer BVB-Sieg."
+      }
+    },
+    {
+      "id": "Q3IOHrq3",
+      "group": "3. Spieltag",
+      "kickoff": "2026-09-12T15:30:00+02:00",
+      "home": {
+        "name": "FC Augsburg",
+        "logo": "https://static.flashscore.com/res/image/data/6ZUvwjgl-Qmnf8wEL.png",
+        "flag": "⚽"
+      },
+      "away": {
+        "name": "Bayer Leverkusen",
+        "logo": "https://static.flashscore.com/res/image/data/OWpaDOYA-WrjrBuU2.png",
+        "flag": "⚽"
+      },
+      "prediction": {
+        "score": {
+          "home": 2,
+          "away": 1
+        },
+        "confidence": 46,
+        "expectedStats": {
+          "possession": {
+            "home": 50,
+            "away": 50
+          },
+          "shots": {
+            "home": 12,
+            "away": 12
+          },
+          "shotsOnTarget": {
+            "home": 5,
+            "away": 5
+          },
+          "corners": {
+            "home": 5,
+            "away": 5
+          }
+        },
+        "reasoning": "Hier weiche ich bewusst von den Quoten ab: Der Markt sieht Leverkusen vorn (1.72), aber Augsburg hat mit 6 Punkten und 7:1 Toren den mit Abstand besten Saisonstart aller Teams. Leverkusen wackelt dagegen (2:3 in Elversberg). Augsburg ist zuhause in dieser Form eine Wucht — knapper Heimsieg gegen den Favoriten. Niedrige Confidence, weil ich gegen den Markt tippe."
+      }
+    },
+    {
+      "id": "t2DVe1Mq",
+      "group": "3. Spieltag",
+      "kickoff": "2026-09-12T15:30:00+02:00",
+      "home": {
+        "name": "TSG Hoffenheim",
+        "logo": "https://static.flashscore.com/res/image/data/I3cMF7f5-n7lWn9DL.png",
+        "flag": "⚽"
+      },
+      "away": {
+        "name": "VfB Stuttgart",
+        "logo": "https://static.flashscore.com/res/image/data/x0YB6veM-f1Z3XxZa.png",
+        "flag": "⚽"
+      },
+      "prediction": {
+        "score": {
+          "home": 2,
+          "away": 2
+        },
+        "confidence": 44,
+        "expectedStats": {
+          "possession": {
+            "home": 50,
+            "away": 50
+          },
+          "shots": {
+            "home": 13,
+            "away": 13
+          },
+          "shotsOnTarget": {
+            "home": 5,
+            "away": 5
+          },
+          "corners": {
+            "home": 5,
+            "away": 5
+          }
+        },
+        "reasoning": "Zwei Teams, die zuverlässig treffen und ebenso zuverlässig kassieren: Hoffenheim erzielte in beiden Spielen 2 Tore, kassierte aber je 3. Stuttgart schwankt zwischen 1:5 und 4:1. Bei diesen beiden löchrigen Defensiven ist ein torreiches Unentschieden das wahrscheinlichste Ergebnis."
+      }
+    },
+    {
+      "id": "Y9Vxfuid",
+      "group": "3. Spieltag",
+      "kickoff": "2026-09-12T15:30:00+02:00",
+      "home": {
+        "name": "SC Freiburg",
+        "logo": "https://static.flashscore.com/res/image/data/ttZErLg5-86lnAaq9.png",
+        "flag": "⚽"
+      },
+      "away": {
+        "name": "Bor. Mönchengladbach",
+        "logo": "https://static.flashscore.com/res/image/data/rDRx1VXg-84sATBUR.png",
+        "flag": "⚽"
+      },
+      "prediction": {
+        "score": {
+          "home": 2,
+          "away": 1
+        },
+        "confidence": 55,
+        "expectedStats": {
+          "possession": {
+            "home": 58,
+            "away": 42
+          },
+          "shots": {
+            "home": 15,
+            "away": 9
+          },
+          "shotsOnTarget": {
+            "home": 6,
+            "away": 3
+          },
+          "corners": {
+            "home": 7,
+            "away": 4
+          }
+        },
+        "reasoning": "Freiburg ist favorisiert (1.72), hat sechs Punkte und nur ein Gegentor — der stabilste Auftritt der Liga neben Augsburg. Gladbach steht bei 0 Punkten und 7 Gegentoren, hat gegen Elversberg aber immerhin drei Tore erzielt. Freiburg gewinnt, ein Clean Sheet ist gegen diese Gladbacher Offensive aber nicht zu erwarten."
+      }
+    },
+    {
+      "id": "YTLWFMDF",
+      "group": "3. Spieltag",
+      "kickoff": "2026-09-12T15:30:00+02:00",
+      "home": {
+        "name": "Mainz 05",
+        "logo": "https://static.flashscore.com/res/image/data/nwmyWZVg-EoYxhN5r.png",
+        "flag": "⚽"
+      },
+      "away": {
+        "name": "Eintracht Frankfurt",
+        "logo": "https://static.flashscore.com/res/image/data/f9dVVYCa-86lnAaq9.png",
+        "flag": "⚽"
+      },
+      "prediction": {
+        "score": {
+          "home": 2,
+          "away": 1
+        },
+        "confidence": 52,
+        "expectedStats": {
+          "possession": {
+            "home": 54,
+            "away": 46
+          },
+          "shots": {
+            "home": 13,
+            "away": 10
+          },
+          "shotsOnTarget": {
+            "home": 5,
+            "away": 4
+          },
+          "corners": {
+            "home": 6,
+            "away": 4
+          }
+        },
+        "reasoning": "Mainz ist favorisiert (2.04) und hat als einziges Team noch kein Gegentor kassiert (0:0, 5:0). Frankfurt hingegen kassierte sieben Tore in zwei Spielen, trifft aber selbst immer (3 und 1 Tor). Mainz gewinnt — gegen eine Frankfurter Offensive, die bisher in jedem Spiel getroffen hat, bleibt die weiße Weste aber wohl nicht."
+      }
+    },
+    {
+      "id": "xQAA8v6k",
+      "group": "3. Spieltag",
+      "kickoff": "2026-09-12T18:30:00+02:00",
+      "home": {
+        "name": "1. FC Köln",
+        "logo": "https://static.flashscore.com/res/image/data/8hxnRHEa-86lnAaq9.png",
+        "flag": "⚽"
+      },
+      "away": {
+        "name": "Werder Bremen",
+        "logo": "https://static.flashscore.com/res/image/data/lEp5rDFG-EVomMG4o.png",
+        "flag": "⚽"
+      },
+      "prediction": {
+        "score": {
+          "home": 2,
+          "away": 1
+        },
+        "confidence": 48,
+        "expectedStats": {
+          "possession": {
+            "home": 53,
+            "away": 47
+          },
+          "shots": {
+            "home": 13,
+            "away": 11
+          },
+          "shotsOnTarget": {
+            "home": 5,
+            "away": 4
+          },
+          "corners": {
+            "home": 6,
+            "away": 5
+          }
+        },
+        "reasoning": "Ausgeglichene Quoten mit leichtem Heimvorteil für Köln (2.06). Beide Teams sind komplett unberechenbar: Köln zwischen 3:2 und 1:4, Werder zwischen 1:4 und 3:1. Beide treffen, beide kassieren. Der Heimvorteil gibt in einem offenen Spiel den Ausschlag."
+      }
+    },
+    {
+      "id": "z3obE9xB",
+      "group": "3. Spieltag",
+      "kickoff": "2026-09-13T15:30:00+02:00",
+      "home": {
+        "name": "RB Leipzig",
+        "logo": "https://static.flashscore.com/res/image/data/02lwXYkl-WvvSE8Dm.png",
+        "flag": "⚽"
+      },
+      "away": {
+        "name": "Hamburger SV",
+        "logo": "https://static.flashscore.com/res/image/data/vy7iqCwS-86lnAaq9.png",
+        "flag": "⚽"
+      },
+      "prediction": {
+        "score": {
+          "home": 3,
+          "away": 0
+        },
+        "confidence": 62,
+        "expectedStats": {
+          "possession": {
+            "home": 64,
+            "away": 36
+          },
+          "shots": {
+            "home": 17,
+            "away": 5
+          },
+          "shotsOnTarget": {
+            "home": 7,
+            "away": 2
+          },
+          "corners": {
+            "home": 8,
+            "away": 2
+          }
+        },
+        "reasoning": "Leipzig ist klarer Favorit (1.39). Der HSV ist das Schlusslicht der Liga: null eigene Tore, sieben Gegentore in zwei Spielen (0:2, 0:5). Gegen diese komplett harmlose Offensive ist ein Clean Sheet berechtigt — Leipzig gewinnt deutlich."
+      }
+    },
+    {
+      "id": "Ot9I6Iz2",
+      "group": "3. Spieltag",
+      "kickoff": "2026-09-13T17:30:00+02:00",
+      "home": {
+        "name": "SV Elversberg",
+        "logo": "https://static.flashscore.com/res/image/data/MiyVhgyB-QsgNMFNg.png",
+        "flag": "⚽"
+      },
+      "away": {
+        "name": "Bayern München",
+        "logo": "https://static.flashscore.com/res/image/data/tMir8iCr-SvLFaVNH.png",
+        "flag": "⚽"
+      },
+      "prediction": {
+        "score": {
+          "home": 1,
+          "away": 3
+        },
+        "confidence": 58,
+        "expectedStats": {
+          "possession": {
+            "home": 36,
+            "away": 64
+          },
+          "shots": {
+            "home": 8,
+            "away": 17
+          },
+          "shotsOnTarget": {
+            "home": 3,
+            "away": 7
+          },
+          "corners": {
+            "home": 3,
+            "away": 8
+          }
+        },
+        "reasoning": "Bayern ist mit Quote 1.20 klarer Favorit. Aber Aufsteiger Elversberg ist die Sensation der Liga: sechs Punkte, sieben Tore, Siege gegen Leverkusen und Gladbach. Sie treffen in JEDEM Spiel — ein Bayern-Clean-Sheet wäre gegen diese Form eine Überraschung. Bayern gewinnt dank individueller Klasse deutlich, kassiert aber ein Tor."
       }
     }
   ]
