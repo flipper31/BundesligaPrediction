@@ -7,7 +7,7 @@ function ConfidenceBar({ value }) {
       <div className="confidence-track">
         <div className="confidence-fill" style={{ width: `${value}%` }} />
       </div>
-      <span className="confidence-label">{value}% sicher</span>
+      <span className="confidence-label">KI-Einschätzung: {value}%</span>
     </div>
   )
 }
@@ -31,7 +31,7 @@ function StatRow({ label, home, away, isPercent }) {
   const total = h + a || 1
   return (
     <div className="stat-row">
-      <span className="stat-value">{home}{isPercent ? '%' : ''}</span>
+      <span className="stat-value">{home == null ? '–' : `${home}${isPercent ? '%' : ''}`}</span>
       <div className="stat-bars">
         <span className="stat-label">{label}</span>
         <div className="stat-track">
@@ -39,7 +39,7 @@ function StatRow({ label, home, away, isPercent }) {
           <div className="stat-away" style={{ width: `${(a / total) * 100}%` }} />
         </div>
       </div>
-      <span className="stat-value">{away}{isPercent ? '%' : ''}</span>
+      <span className="stat-value">{away == null ? '–' : `${away}${isPercent ? '%' : ''}`}</span>
     </div>
   )
 }
@@ -60,7 +60,7 @@ const HIT_LABEL = {
   daneben: '❌ Daneben',
 }
 
-// Punkte-Schema (Kicktipp-Logik): exakt = 4, richtige Tendenz = 2, daneben = 0
+// Interne Vergleichswertung; nicht die aus Kicktipp abgerufenen Community-Punkte.
 const POINTS = { exakt: 4, tendenz: 2, daneben: 0 }
 
 // Getippter Ausgang aus dem Score
@@ -130,7 +130,7 @@ function StatsSummary({ finished }) {
       <div className="points-bar">
         <div className="points-head">
           <span><strong>{punkte}</strong> von {maxPunkte} möglichen Punkten</span>
-          <span className="points-scheme">4 = exakt · 2 = Tendenz · 0 = daneben</span>
+          <span className="points-scheme">Interne Wertung: 4 = exakt · 2 = Tendenz · 0 = daneben</span>
         </div>
         <div className="points-track">
           <div className="points-fill" style={{ width: `${(punkte / maxPunkte) * 100}%` }} />
@@ -214,6 +214,7 @@ function MatchCard({ match }) {
           {actual?.stats && actual.stats.possession.home != null && (
             <div className="stats-block">
               <h4>Tatsächliche Statistiken (Flashscore)</h4>
+              {actual.stats.xg && <StatRow label="Expected Goals (xG)" home={actual.stats.xg.home} away={actual.stats.xg.away} />}
               <StatRow label="Ballbesitz" home={actual.stats.possession.home} away={actual.stats.possession.away} isPercent />
               <StatRow label="Torschüsse" home={actual.stats.shots.home} away={actual.stats.shots.away} />
               <StatRow label="Schüsse aufs Tor" home={actual.stats.shotsOnTarget.home} away={actual.stats.shotsOnTarget.away} />
@@ -270,8 +271,7 @@ export default function App() {
       <header>
         <h1>⚽ Bundesliga AI Predictions</h1>
         <p className="subtitle">
-          KI-Prognosen für jeden Spieltag — mit Begründung auf Basis von Form,
-          Team-Statistiken (Torschüsse, Ballbesitz) und Wettquoten.
+          Bundesliga 2026/27 · Form, xG und Spielstatistiken
         </p>
         <p className="generated">
           Stand: {new Date(data.generatedAt).toLocaleString('de-DE')} · Modell: {data.model}

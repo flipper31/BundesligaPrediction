@@ -21,9 +21,13 @@ frontend/ (React + Vite)  → statischer Build → http://192.168.178.135:8182
 
 ## Update ausführen
 
+Projektpfad: `C:\Development\BundesligaPrediction`. Nur auf ausdrueckliches
+"Mach Update" starten, keine Uhrzeit-Routine und keine Wiederholung nach einer
+Fertigmeldung. Alte WM-Daten bleiben unberuehrt.
+
 ```bash
 cd scraper
-npm run start country=germany league=bundesliga fileType=json
+npm run start -- country=germany league=bundesliga fileType=json
 ```
 
 Danach: Ergebnisse in `frontend/public/predictions.json` anreichern, kommende
@@ -64,11 +68,56 @@ Wichtige Eigenheiten der Community `nrm-bundesliga`:
   der User per Hand ein. Dadurch ist alles um 1 verschoben: **1. Spieltag = `spieltagIndex=1`**,
   N. Spieltag = `spieltagIndex=N`. Steuerbar über `--matchday-index N`.
 - Nur Spiel-Ergebnisse werden automatisch getippt, keine Bonusfragen.
-- Vor dem echten Eintragen immer erst Trockenlauf zeigen und bestätigen lassen.
+- Bei "Mach Update" direkt mit `--matchday-index N --submit` eintragen, ohne
+  erneute Bestaetigung. Danach den gespeicherten Serverstand neu laden und pruefen.
+- Bereits angepfiffene Spiele und Bonusfragen werden nicht veraendert.
 
 ## Prognose-Prinzipien
 
 - Wettquoten sind **ein** Input neben Form/Statistiken — kein reines Quoten-Echo
+- Aktuell dienen die abgerufenen Quoten als Vergleich bei der KI-Analyse; es gibt
+  keine feste rechnerische Gewichtung und kein kalibriertes Quotenmodell.
 - Torschüsse/xG schlagen das reine Ergebnis bei der Formbewertung
 - Kein „zu Null"-Tipp, wenn die Abwehr löchrig ist **und** der Gegner treffen kann
 - Tipps gespielter Spiele werden nie nachträglich geändert (saubere Bilanz)
+
+## Statistik-Pflicht
+
+Keine neuen Prognosen und keine Kicktipp-Uebertragung ohne validierte Statistiken.
+Pflichtfelder: xG, Ballbesitz, Schuesse, Schuesse aufs Tor und Ecken. Nullwerte
+bleiben unbekannt; nur echte numerische Nullen sind Null.
+
+`scripts/flashscore-stats.mjs` liest den oeffentlichen Flashscore-Statistikfeed.
+Es werden nur Werte fuer das gesamte Spiel (`Match`) verwendet, nicht die
+Halbzeiten; doppelte Kategorien werden auf Widersprueche geprueft. Originalantwort,
+Abrufzeit und SHA-256 liegen pro Spiel unter `data/flashscore/`. Bereits validierte
+Endstaende werden aus diesem Cache gelesen, nicht wiederholt abgefragt. Der Feed
+ist keine garantierte offizielle API; Formatfehler muessen das Update stoppen.
+
+Der lokale, gitignorierte Scraper importiert `getMatchStatistics` aus
+`../../../../../scripts/flashscore-stats.mjs` in
+`scraper/src/scraper/services/matches/index.js`. Bei `FINISHED` wird dieser Abruf
+anstelle der alten DOM-Statistikextraktion benutzt. `scraper/src/index.js` setzt
+bei Fehlern `process.exitCode = 1`. Diese zwei Anpassungen bei einem frischen
+Scraper-Checkout wieder uebernehmen.
+
+Bei leeren Statistiken aus einem bereits abgeschlossenen Scrape nur diese
+nachladen, nicht nochmals alle Spielplaene und Quoten:
+```bash
+node scripts/repair-statistics.mjs
+node --test scripts/flashscore-stats.test.mjs scripts/update-predictions.test.mjs
+```
+
+Erst danach neue Tipps anhand der Daten erstellen und mit einer Proposal-Datei
+zusammenfuehren, beispielsweise:
+```bash
+node scripts/update-predictions.mjs data/predictions/round-4.json
+node scripts/submit-to-kicktipp.mjs --matchday-index 4 --submit
+```
+
+Der Merge verweigert fehlende Kerndaten, unvollstaendige Spieltage, begonnene
+Spiele und das Ueberschreiben vorhandener Tipps. Die Modellangabe fuer neue Tipps
+ab Spieltag 4 ist `GPT-6-Astra`. Alte Prediction-Objekte bleiben unveraendert.
+Die Prozentwerte sind subjektive Tendenz-Einschaetzungen, keine kalibrierten
+Wahrscheinlichkeiten fuer exakte Ergebnisse. Die Website-Punkte sind eine interne
+4/2/0-Vergleichswertung und nicht aus Kicktipp abgerufene Community-Punkte.

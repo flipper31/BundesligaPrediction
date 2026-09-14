@@ -1,0 +1,68 @@
+{
+  "round": 4,
+  "matches": [
+    {
+      "id": "jm14ULS8",
+      "score": { "home": 3, "away": 0 },
+      "confidence": 74,
+      "expectedStats": { "possession": { "home": 70, "away": 30 }, "shots": { "home": 23, "away": 7 }, "shotsOnTarget": { "home": 8, "away": 2 }, "corners": { "home": 8, "away": 2 } },
+      "reasoning": "Bayerns knappe Ergebnisse zuletzt verdecken klare Chancenanteile: 1,94:0,21 xG beim 0:0 auf Schalke und 2,42:0,93 xG sowie 28:5 Schuesse beim 2:1 in Elversberg. Insgesamt stehen 8,42:1,92 xG nach drei Spielen. Union hat dagegen 7,08 xG zugelassen und kam beim bisher vergleichbaren Auswaertsspiel in Leverkusen nur auf 0,40 xG. Deshalb klarer Heimvorteil und als Ergebnistipp 3:0. Ein Gegentor bleibt moeglich: Union produzierte zuletzt gegen Schalke 1,95 xG. Der Zu-null-Tipp ist keine Gewissheit; die Prozentzahl ist eine subjektive Einschaetzung der Siegtendenz, nicht der exakten Torzahl."
+    },
+    {
+      "id": "YgibJeK7",
+      "score": { "home": 1, "away": 2 },
+      "confidence": 54,
+      "expectedStats": { "possession": { "home": 44, "away": 56 }, "shots": { "home": 12, "away": 17 }, "shotsOnTarget": { "home": 4, "away": 6 }, "corners": { "home": 4, "away": 6 } },
+      "reasoning": "Gladbachs zwoelf Gegentore sind extrem, aber die Defensive liess auch 8,87 xG und 30 Schuesse aufs Tor zu. Beim 0:5 in Freiburg waren es nur 0,19 eigene xG und 5:19 Schuesse. Mainz verlor zwar 1:3 gegen Frankfurt, hatte dabei aber 2,12:2,04 xG und 18:11 Schuesse: kein Beleg fuer einen ebenso deutlichen Leistungseinbruch. Ueber drei Spiele liegt Mainz bei 6,13:3,09 xG. Ich sehe deshalb einen knappen Auswaertssieg. Gladbach bleibt zuhause torgefaehrlich, wie 2,37 xG gegen Elversberg zeigen, daher kein Zu-null-Tipp. Nur drei Spiele je Team begrenzen die Aussagekraft."
+    },
+    {
+      "id": "0tgjLHke",
+      "score": { "home": 1, "away": 1 },
+      "confidence": 32,
+      "expectedStats": { "possession": { "home": 53, "away": 47 }, "shots": { "home": 13, "away": 12 }, "shotsOnTarget": { "home": 4, "away": 4 }, "corners": { "home": 5, "away": 4 } },
+      "reasoning": "Freiburgs guter Start ist nicht nur Abschlussglueck: In drei Partien wurden insgesamt bloss 1,50 xG und sechs Schuesse aufs Tor zugelassen. Zehn eigene Tore bei 6,21 xG sind allerdings eine hohe Ausbeute. Dazu waren Bremen, Paderborn und Gladbach die bisherigen Gegner; daraus leite ich keine sichere Ueberlegenheit in Frankfurt ab. Die Eintracht steht trotz acht Gegentoren bei 5,09 zugelassenen xG und schuf selbst 5,72 xG. Das 3:1 in Mainz war mit 2,04:2,12 xG wiederum ausgeglichener als das Ergebnis. Heimvorteil und Freiburger Defensivstaerke halten sich fuer mich ungefaehr die Waage: 1:1 mit hoher Unsicherheit."
+    },
+    {
+      "id": "00qpsaCE",
+      "score": { "home": 1, "away": 2 },
+      "confidence": 55,
+      "expectedStats": { "possession": { "home": 46, "away": 54 }, "shots": { "home": 11, "away": 16 }, "shotsOnTarget": { "home": 3, "away": 5 }, "corners": { "home": 4, "away": 6 } },
+      "reasoning": "Der HSV hat nach drei Spielen 0:12 Tore, aber 2,17 eigene xG: Die Offensive ist schwach, nicht chancenlos. Koeln erzeugte 6,39 xG und 50 Schuesse; selbst beim 1:4 in Stuttgart waren es 2,79 eigene xG. Das spricht fuer mehr Koelner Torgefahr gegen einen Gegner mit 6,68 zugelassenen xG. Ein 0:2 waere mir trotzdem zu zuversichtlich hinsichtlich der Koelner Abwehr, die bisher 6,47 xG zuliess. Ich tippe 1:2. Hamburg hatte mit Dortmund und Leipzig zudem zwei anspruchsvolle Auswaertsgegner, deshalb wird die bisherige Negativserie nicht unveraendert hochgerechnet."
+    },
+    {
+      "id": "8QnhuwsR",
+      "score": { "home": 1, "away": 1 },
+      "confidence": 33,
+      "expectedStats": { "possession": { "home": 53, "away": 47 }, "shots": { "home": 12, "away": 13 }, "shotsOnTarget": { "home": 4, "away": 5 }, "corners": { "home": 5, "away": 4 } },
+      "reasoning": "Augsburgs neun Tore und sieben Punkte sind kein ausreichender Grund fuer einen weiteren Sieg-Tipp. Beim 4:1 in Frankfurt lagen die xG bei 1,13:2,22, beim 2:2 gegen Leverkusen bei 1,11:2,64 und die Schuesse bei 8:30. Insgesamt erzielte Augsburg neun Tore aus 5,96 xG und liess 6,96 xG zu. Bremen uebertraf mit fuenf Toren aus 2,61 xG ebenfalls seine Chancenqualitaet; auch der Sieg gegen Leipzig entstand trotz 0,95:1,50 xG. Gegen zwei bislang effizient abschliessende, aber nicht durchgehend dominante Teams erscheint mir ein knappes 1:1 plausibler als eine Fortschreibung der hohen Resultate. Bremens Heimvorteil gleicht Augsburgs hoehere offensive Produktion teilweise aus."
+    },
+    {
+      "id": "O0aCSacL",
+      "score": { "home": 2, "away": 2 },
+      "confidence": 33,
+      "expectedStats": { "possession": { "home": 54, "away": 46 }, "shots": { "home": 16, "away": 14 }, "shotsOnTarget": { "home": 6, "away": 5 }, "corners": { "home": 6, "away": 5 } },
+      "reasoning": "Stuttgart produzierte zuletzt 3,47 xG gegen Koeln und 2,17 gegen Hoffenheim, liess dabei aber auch 2,79 beziehungsweise 2,76 xG zu. Insgesamt stehen acht Gegentore bei 9,61 zugelassenen xG; davon entfallen 4,06 auf das Bayern-Spiel. Dortmund gewann alle drei Partien, erzielte acht Tore aus 5,32 xG und hatte mit HSV und Paderborn zwei Gegner mit bislang sehr geringer Torausbeute. Aus diesen Siegen folgt fuer mich kein sicherer Auswaertssieg in Stuttgart. Mit Heimvorteil, beidseitiger Chancenproduktion und offener VfB-Abwehr tippe ich vorsichtig 2:2. Das Remis ist eine unsichere Ergebnisauswahl, keine behauptete hohe Wahrscheinlichkeit."
+    },
+    {
+      "id": "fqjrNwLr",
+      "score": { "home": 2, "away": 1 },
+      "confidence": 49,
+      "expectedStats": { "possession": { "home": 56, "away": 44 }, "shots": { "home": 17, "away": 13 }, "shotsOnTarget": { "home": 6, "away": 5 }, "corners": { "home": 6, "away": 5 } },
+      "reasoning": "Leverkusens vier Punkte passen nur bedingt zur starken Chancenbilanz: 7,63:2,78 xG und 72:24 Schuesse. Das 2:2 in Augsburg ging mit 2,64:1,11 xG und 30:8 Schuessen einher. Leipzig ist mit 7,84:2,98 xG ebenfalls stark; seine Niederlage in Bremen darf wegen des dortigen xG-Vorteils von 1,50:0,95 nicht ueberbewertet werden. Umgekehrt war das 5:0 gegen Hamburg bei 2,38:0,94 xG kein fuenf Tore grosser Chancenunterschied. Ich sehe zwei gefaehrliche Offensiven mit aehnlicher Gesamtbilanz. Der Heimvorteil gibt fuer mich knapp den Ausschlag fuer Leverkusen, 2:1 statt einer Zu-null-Prognose."
+    },
+    {
+      "id": "4dYNZG4l",
+      "score": { "home": 2, "away": 1 },
+      "confidence": 43,
+      "expectedStats": { "possession": { "home": 49, "away": 51 }, "shots": { "home": 14, "away": 12 }, "shotsOnTarget": { "home": 5, "away": 4 }, "corners": { "home": 5, "away": 4 } },
+      "reasoning": "Schalkes 3:1 bei Union wurde von 2,51 xG und 19 Schuessen getragen, war also nicht nur ein Sieg aus wenigen Abschluessen. Das 0:0 gegen Bayern zuvor bedeutete dagegen bei 0,21:1,94 xG keine defensive Dominanz. Elversberg erzielte acht Tore aus 4,51 xG und musste insgesamt 74 Schuesse sowie 6,67 xG hinnehmen. Allerdings waren Bayern und Leverkusen bereits Gegner; diese Belastung relativiert die Abwehrwerte. Mit Schalkes Heimvorteil und der zuletzt besseren eigenen Chancenproduktion waehle ich ein vorsichtiges 2:1. Elversbergs Torgefahr und Schalkes 7,61 zugelassene xG sprechen klar gegen einen sicheren Heimsieg oder einen Zu-null-Tipp."
+    },
+    {
+      "id": "xOoVXfZ0",
+      "score": { "home": 1, "away": 2 },
+      "confidence": 58,
+      "expectedStats": { "possession": { "home": 42, "away": 58 }, "shots": { "home": 10, "away": 18 }, "shotsOnTarget": { "home": 3, "away": 6 }, "corners": { "home": 3, "away": 6 } },
+      "reasoning": "Paderborn brachte in drei Spielen nur drei Schuesse aufs Tor und 1,99 xG zustande. Hoffenheim kommt auf 6,39 xG, 53 Schuesse und 18 Abschluesse aufs Tor; beim juengsten 2:1 gegen Stuttgart waren es 2,76 xG und 20 Schuesse. Das ergibt einen klaren Vorteil bei der erwartbaren Torgefahr. Die TSG ist jedoch keineswegs stabil: 6,16 gegnerische xG und sieben Gegentore verhindern eine starke Zu-null-Erwartung. Deshalb 1:2 statt einer automatischen Fortsetzung von Paderborns torlosem Start. Der Auswaertsvorteil bleibt trotz der nur drei Spiele kleinen Stichprobe mein deutlichster Punkt nach Bayerns Heimvorteil."
+    }
+  ]
+}
